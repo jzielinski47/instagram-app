@@ -5,7 +5,7 @@ Content-Type: multipart/form-data; boundary=----FormBoundary1234
 Content-Disposition: form-data; name="file"; filename="test-image.jpg"
 Content-Type: image/jpeg
 
-< ./plik.jpg
+< ./test-image.jpg
 
 ------FormBoundary1234
 Content-Disposition: form-data; name="album"
