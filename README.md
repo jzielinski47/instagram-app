@@ -1,2 +1,2 @@
-# instagram-type-backend-application
+# Instagram-type backend application project
 
