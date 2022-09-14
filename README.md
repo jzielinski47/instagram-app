@@ -7,7 +7,17 @@ A simple content management backend application in [MVC](https://en.wikipedia.or
 All the sample test files are located in `/test` directory. There are three individual `x-...-.http` files. Each one covers a different area for the project.
 
 ### x-files.http
-`/test/x-files.http` covers the entire file-management system. A user may upload an image, see all the images in their album, patch it, delete it.
+`/test/x-files.http` covers the entire file-management system. 
+
+<br>Upload an image
+
+<br>See the image and its metadata. You need to provide the image ID as a parameter which, you can get by looking it up in the album.
+
+<br>See all the images in the album
+
+<br>Patch the image
+
+<br>Delete the image
 
 ### x-filters.http
 `/test/x-files.http` covers the entire file-management system. A user may upload an image, see all the images in their album, patch it, delete it.
