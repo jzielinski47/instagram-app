@@ -5,6 +5,11 @@ A simple content management backend application in [MVC](https://en.wikipedia.or
 ## Usage
 
 All the sample test files are located in `/test` directory. There are three individual `x-...-.http` files. Each one covers a different area for the project.
+```
+`/test/x-files.http` covers the entire file-management system. 
+`/test/x-files.http` covers the entire file-management system. 
+`/test/x-files.http` covers the entire file-management system. 
+```
 
 ### x-files.http
 `/test/x-files.http` covers the entire file-management system. 
