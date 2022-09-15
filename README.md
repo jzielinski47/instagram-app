@@ -7,8 +7,8 @@ A simple content management backend application in [MVC](https://en.wikipedia.or
 All the sample test files are located in `/test` directory. There are three individual `x-...-.http` files. Each one covers a different area for the project. It is important to mention that you need a file to operate on while testing the other two controllers.
 ```
 `/test/x-files.http` covers the entire file-management system. 
-`/test/x-files.http` covers the entire file-management system. 
-`/test/x-files.http` covers the entire file-management system. 
+`/test/x-filters.http` covers the filter system for uploaded image files.  
+`/test/x-tags.http` covers the tag system for uploaded image files. 
 ```
 
 ### x-files.http
