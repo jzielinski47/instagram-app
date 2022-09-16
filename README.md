@@ -15,6 +15,23 @@ All the sample test files are located in `/test` directory. There are three indi
 `/test/x-files.http` covers the entire file-management system. 
 
 <br>Upload an image
+```js
+POST http://localhost:3000/api/photos HTTP/1.1
+Content-Type: multipart/form-data; boundary=----FormBoundary1234
+
+------FormBoundary1234
+Content-Disposition: form-data; name="file"; filename="test-image.jpg"
+Content-Type: image/jpeg
+
+< ./test-image.jpg
+
+------FormBoundary1234
+Content-Disposition: form-data; name="album"
+Content-Type: text/plain
+
+nazwa_albumu
+------FormBoundary1234
+```
 
 <br>See the image and its metadata. You need to provide the image ID as a parameter which, you can get by looking it up in the album.
 
