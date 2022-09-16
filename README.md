@@ -1,6 +1,6 @@
 # A simple instagram-type backend service
 
-A simple JavaScript content management backend application in [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) standard for image-conent management (uploading images, applying tags and filters, removing them and more). It was a school asignment for ServerSide-Applications Classes. The project was abandoned due to lack of time during a school-year (2022). However it is ready to be developed further. 
+A simple JavaScript content management backend application in [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) standard for image-conent management (uploading images, applying tags and filters, removing them and more). It was a school asignment for ServerSide-Applications Classes. The version on GitHub is the latest one (before it was patched localy and this is also the first version that was actually uploaded to github by me). The project was abandoned due to lack of time during a school-year (2022). However it is ready to be developed further. 
 
 ## Usage
 
