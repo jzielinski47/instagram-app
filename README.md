@@ -14,7 +14,7 @@ All the sample test files are located in `/test` directory. There are three indi
 ### x-files.http
 `/test/x-files.http` covers the entire file-management system. 
 
-<br>Upload an image
+<br>**Upload an image**
 ```js
 POST http://localhost:3000/api/photos HTTP/1.1
 Content-Type: multipart/form-data; boundary=----FormBoundary1234
@@ -33,7 +33,7 @@ nazwa_albumu
 ------FormBoundary1234
 ```
 
-<br>See the image and its metadata. You need to provide the image ID as a parameter which, you can get by looking it up in the album.
+<br>**See the image and its metadata.** You need to provide the image ID as a parameter.
 
 <br>See all the images in the album
 
